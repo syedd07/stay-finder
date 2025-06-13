@@ -2,7 +2,7 @@
 
 A full-stack vacation rental platform built with Next.js, featuring property listings, booking management, user authentication, and host dashboards.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/syedd07s-projects/v0-stay-finder-project)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://findbnb.vercel.app/)
 [![Built with Next.js](https://img.shields.io/badge/Built%20with-Next.js-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![Database](https://img.shields.io/badge/Database-Neon%20PostgreSQL-green?style=for-the-badge&logo=postgresql)](https://neon.tech/)
 
@@ -26,7 +26,6 @@ A full-stack vacation rental platform built with Next.js, featuring property lis
 - Real-time availability checking
 - Booking confirmation and management
 - User booking history
-- Smart date picker UX (auto-close/open)
 
 ### 🏠 **Host Dashboard**
 - Property management for hosts
@@ -71,7 +70,7 @@ A full-stack vacation rental platform built with Next.js, featuring property lis
 
 ## 🚀 Live Demo
 
-**[View Live Application](https://vercel.com/syedd07s-projects/v0-stay-finder-project)**
+**[View Live Application](https://findbnb.vercel.app/)**
 
 ### Demo Credentials
 - **Email**: `demo@stayfinder.com`
@@ -88,23 +87,23 @@ Before you begin, ensure you have the following installed:
 ## ⚡ Quick Start
 
 ### 1. Clone the Repository
-\`\`\`bash
+```bash
 git clone https://github.com/syedd07/stay-finder.git
 cd stay-finder
-\`\`\`
+```
 
 ### 2. Install Dependencies
-\`\`\`bash
+```bash
 npm install
 # or
 yarn install
 # or
 pnpm install
-\`\`\`
+```
 
 ### 3. Environment Setup
 Create a `.env.local` file in the root directory:
-\`\`\`env
+```env
 # Database Configuration
 DATABASE_URL="your-neon-database-url"
 POSTGRES_URL="your-postgres-url"
@@ -112,32 +111,32 @@ POSTGRES_PRISMA_URL="your-prisma-url"
 POSTGRES_URL_NON_POOLING="your-non-pooling-url"
 
 # Add other environment variables as needed
-\`\`\`
+```
 
 ### 4. Database Setup
 Run the database creation and seeding scripts:
-\`\`\`bash
+```bash
 # Create database tables
 npm run db:create
 
 # Seed with sample data
 npm run db:seed
-\`\`\`
+```
 
 ### 5. Start Development Server
-\`\`\`bash
+```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-\`\`\`
+```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 stay-finder/
 ├── app/                    # Next.js App Router
 │   ├── auth/              # Authentication pages
@@ -159,7 +158,7 @@ stay-finder/
 │   ├── create-database.sql
 │   └── seed-data.sql
 └── public/               # Static assets
-\`\`\`
+```
 
 ## 🗄️ Database Schema
 
@@ -185,7 +184,7 @@ stay-finder/
 
 ## 🔧 Available Scripts
 
-\`\`\`bash
+```bash
 # Development
 npm run dev          # Start development server
 npm run build        # Build for production
@@ -199,7 +198,7 @@ npm run db:reset     # Reset database (drop and recreate)
 
 # Deployment
 npm run deploy       # Deploy to Vercel
-\`\`\`
+```
 
 ## 🌐 API Routes
 
@@ -254,10 +253,10 @@ npm run deploy       # Deploy to Vercel
 3. Deploy automatically on push to main branch
 
 ### **Manual Deployment**
-\`\`\`bash
+```bash
 npm run build
 npm run start
-\`\`\`
+```
 
 ## 🤝 Contributing
 
@@ -285,7 +284,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email support@stayfinder.com or create an issue on GitHub.
+For support, email syedyusufali6626@gmail.com or create an issue on GitHub.
 
 ---
 
